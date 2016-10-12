@@ -1,0 +1,44 @@
+== README
+
+
+* install rspec, cucumber, layout_it,passegner 
+* create a layout/bootstrap
+* devise 
+* devise ldap install
+* create post and comments controller
+* pagination for 100 posts
+* follow posts
+* add users
+* write cucumber and rspecs
+* container applications
+* create ldap server and container
+* create CI buildpipeline
+* rest services using grape
+* write receipes 
+
+* create a repo with name twitter_social
+* login to semaphoreCI
+* dockerhub login
+* newrelic free login
+* heroku 
+
+==================
+LDAP Admin credentails
+================
+Username: admin/administrator- administrator
+password: admin
+
+DNS domian name: twitter.example.com
+organization name: twitter_social
+adminstrator password: admin
+
+
+192.168.242.130
+
+
+==================
+
+rails g scaffold tweets message:text 
+rails g scaffold comment comment_message:text 
+
+rails g migration add_photo_to_tweets photo:string
